@@ -1,0 +1,104 @@
+<!DOCTYPE html> <!--need to use the DOCTYPE to establish the html page-->
+<html lang="en"> <!--need to have this outside of the head element and 
+use lang instead of language-->
+<head> 
+    <meta charset="UTF-8"> <!-- need to establish the meta data such as the unicode-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error-Filled Page</title>
+</head> <!--need to close the head element after the title-->
+<body>
+    <h1>Welcome to My Error-Filled Page</h1> <!--need to close the h1 element-->
+    
+    <p>This is a paragraph with mismatched tags and missing closing tags.</p>
+    <!--need to use an opening element; use <p> to start this paragraph-->
+    <ol> <!--need to have the same opening and closing tags-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+        <li>Item 7</li>
+        <li>Item 8</li>
+        <li>Item 9</li>
+        <li>Item 10</li>
+    </ol>
+
+    <p>This is another paragraph without proper indentation.</p>
+    <!--need to have a closing tag that matches the opening tag-->
+    <img src="image.jpg" alt="Programming Meme"> <!--<img> tags require src and alt-->
+
+    <a href="https://www.example.com" target="_blank">Click me!</a> 
+    <!--need to close the anchor tag to make the hyperlink work for this line specifically-->
+    <!--<img> does not need a closing tag as it is a null element-->
+    <table> <!--need to have a closing tag such as </table>-->
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>25</td> <!--need to close the <td> tag-->
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>30</td>
+        </tr>
+    </table>
+    <img src="error.jpeg" alt="Error Image">
+    <!--src should be used instead of source to have the image work properly-->
+
+    <p style="text-align:center">This is centered text.</p>
+    <!--the center tag is not supported in HTML5-->
+    <!--use the style attribute to center the text instead-->
+
+    <p style="background-color:lightgray;">Text</p>
+    <!--cannot use bgcolor; use style instead to change the background color-->
+    <input type="button" value="Click me">
+
+    <!-- This is an unclosed comment-->
+    <!--need to close the comment-->
+
+    <a href="#">Link without closing tag</a>
+    <!--need to close the anchor tag-->
+
+    <p><u>Underlined text</u></p>
+    <!--need to close the tags in order of occurance therefore <em> needs to 
+        be closed before the <p> tag-->
+    <!--for underlined text you need to use the <u> tag rather than the <em> tag as the <em> tag is for italicizing text-->
+
+    <dl>
+        <dt>Descriptive Item Title</dt>
+        <!--cannot use <li> for a description list.
+            Instead use <dt> for description term-->
+        <dd>Descriptive Item Text</dd>
+        <!--cannot use <li> for the description text.
+            Instead use <dd> (description details)-->
+    </dl>
+
+    <h3><u>Errors Found</u></h3>
+    <ol>
+        <li>Error 1: At the top of the page, you need to declare the doctype. Therefore, I added doctype html so the page was read in html by the browser. 
+        </li>
+        <li>Error 2: The next error was with establishing the language of the page using html language. To fix this error, I placed the html tag outside of the head element and used html lang = 'en'. </li>
+        <li>Error 3: The next error was not adding the metadata needed for the page in the head element. Therefore, I added the charset as UTF-8 and included the name and content with another meta tag.</li>
+        <li>Error 4: The next error was not closing the head element. Therefore, I closed the head element with /head.</li>
+        <li>Error 5: The next error was not closing the h1 element properly. Therefore, I closed the h1 element with /h1. </li>
+        <li>Error 6: The next error was not opening the p element properly. Therefore, I opened the p element with p.</li>
+        <li>Error 7: The next error was the mismatch ol and ul tags for the list. Therefore, I closed the ordered list with /ol.</li>
+        <li>Error 8: The next error was not closing the p element properly. Therefore, I closed the p element with /p.</li>
+        <li>Error 9: The next error was with the img element. The img element needs two attributes: scr and alt to be fully functional. Therefore, I added and defined the alt attribute.</li>
+        <li>Error 10: The next error was with the anchor tag and closing the img element. Since the img element is a null element, you do not need to close the img element with /img. Instead, I deleted the /img closing tag and added /a to close the anchor tag properly.</li>
+        <li>Error 11: The next error was not closing the table element properly. Therefore, I closed the table element with /table at the end of the table.</li>
+        <li>Error 12: The next error was not closing the title description element properly with the '25' text. Therefore, I closed the td element with /td.</li>
+        <li>Error 13: The next error was using the word 'source' instead of 'src' to link the image properly. Therefore, I replaced 'source' with src.</li>
+        <li>Error 14: The next error was using the tag 'center' to center the text. The 'center' tag is not supported in HTML5. Therefore, I used the style attribute to center the text instead by writing style="text-align:center" with the use of the paragraph element.</li>
+        <li>Error 15: The next error was using bgcolor to change the background color of the text. Therefore, I used style="background-color:lightgray;" to change the background color for the text.</li>
+        <li>Error 16: The next error was not closing a comment properly. Therefore, I closed the comment by using '- - >'.</li>
+        <li>Error 17: The next error was not closing the p and em tags in the correct order. Therefore, I closed the em tag with /em right after the text and closed the entire text with /p after the /em tag.</li>
+        <li>Error 18: The next error was not using the right element to underline the text. Em is used to italicize the text. Therefore, I changed the em tags with u which underlines the text.</li>
+        <li>Error 19: The next error was using the wrong tags for the descriptive list. Li tags are only used for ordered, unordered, and menu lists. Therefore, I changed the li tags for the descriptive item title with dt and /dt.</li>
+        <li>Error 20: The last error is at the bottom of the page. Li tags cannot be used for a descriptive list. Therefore, I changed the li tags to dd and /dd for the descriptive item text.</li>
+    </ol>
+</body>
+</html>
