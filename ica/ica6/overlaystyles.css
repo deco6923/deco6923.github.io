@@ -1,0 +1,175 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url("texas-vball.jpeg");
+    color: white;
+    font-size: 15px;
+}
+
+.overlay_title1{
+    background-color: blue;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    right: 40px;
+    top: 20px;
+    padding: 20px 30px 80px 30px;
+    
+}
+
+.more_info{
+    position: absolute;
+    text-align: center;
+    top:60px;
+    right: 57px;
+    padding: 20px;
+}
+
+p{
+    position: absolute;
+    top:60px;
+    right: 57px;
+    padding: 40px 20px;
+}
+
+.overlay_title2{
+    background-color: grey;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    padding: 10px 167px;
+    bottom: 80px;
+    left: 750px;
+}
+
+.team1_set3{
+    background-color: orange;
+    display:inline-block;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 40px;
+    left: 750px;
+    
+}
+
+.set_3{
+    background-color: red;
+    display:inline-block;
+    padding: 10px;
+    position: absolute;
+    bottom: 40px;
+    left: 700px;
+}
+.score1{
+    background-color: black;
+    display:inline-block;
+    padding: 10px;
+    position: absolute;
+    bottom: 40px;
+    left: 870px;
+}
+
+.set_2{
+    background-color: red;
+    display:inline-block;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 40px;
+    left: 910px;
+}
+.team2_set3{
+    background-color: navy;
+    padding: 10px 42px 10px 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 750px;
+}
+
+.score2{
+    background-color: black;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 868px;
+}
+
+.team1_set2{
+    background-color: orange;
+    display:inline-block;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 40px;
+    left: 1005px;
+}
+
+.team2_set2{
+    background-color: navy;
+    padding: 10px 42px 10px 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 1005px;
+}
+
+.score3{
+    background-color: black;
+    display:inline-block;
+    padding: 10px;
+    position: absolute;
+    bottom: 40px;
+    left: 1125px;
+}
+
+.score4{
+    background-color: black;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 1122px;
+}
+
+.set_1{
+    background-color: red;
+    display:inline-block;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 40px;
+    left: 1160px;
+}
+.team1_set1{
+    background-color: orange;
+    display:inline-block;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 40px;
+    left: 1235px;
+}
+
+.team2_set1{
+    background-color: navy;
+    padding: 10px 42px 10px 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 1235px;
+}
+
+.score5{
+    background-color: black;
+    display:inline-block;
+    padding: 10px;
+    position: absolute;
+    bottom: 40px;
+    left: 1355px;
+}
+
+.score6{
+    background-color: black;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 1355px;
+}
+
