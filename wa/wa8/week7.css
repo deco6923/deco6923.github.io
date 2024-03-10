@@ -1,0 +1,85 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(209, 73, 91) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(231, 227, 147);
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    border: dashed black;
+    background-color: rgba(244, 201, 93);
+    transition: padding 2s, font-size 2s;
+
+}
+
+nav:hover{
+    background-color: lavenderblush;
+    padding: 20px;
+    width: 50%;
+    font-size: 20px;
+}
+
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(209, 73, 91);
+    font-style: italic;
+}
+
+
+img{
+    width:30vw;
+    height: 30vh;
+    
+}
+
+
+#red-ball{
+    background-color: black;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+    left:5vw;
+    top: 18px;
+    animation-name: ball;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+    
+}
+
+@keyframes ball{
+    0%{
+        opacity: 0;
+        transform: scale(.5);
+        margin-left: 100%;
+    }
+
+    25%{
+        transform: scale(1)
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(.5);
+    }
+
+    75%{
+        transform: scale(1)
+    }
+    
+    100%{
+        opacity: 0;
+        transform: scale(.5);
+        
+    }
+}
+
