@@ -6,7 +6,7 @@ if (userInput === "y" || userInput === "yes"){
     alert("Welp.. You're still going to waste your time")
 } else {
     alert("Doesn't matter... Let's continue")
-}*/
+}
 
 let volume = document.getElementById('volume')
 let newVolume = 0;
