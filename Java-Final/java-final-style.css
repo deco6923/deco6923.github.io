@@ -12,6 +12,7 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     font-size: 45px;
+    margin-top: 15px;
 }
 
 .directions {
@@ -22,6 +23,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     font-weight: bold;
+    margin-top: -10px;
 }
 
 p {
@@ -87,7 +89,6 @@ p {
 #reset {
     display: block;
     margin: auto;
-    margin-bottom: 20px;
     font-size: 20px;
     padding: 10px; 
     border: solid white 2px;
@@ -95,10 +96,11 @@ p {
     cursor: pointer; 
     color: black;
     background-color: red;
+    margin-top: -15px;
 }
 
 #volume {
-    margin-top: 40px;
+    margin-top: 30px;
     border: solid white 3px;
     background-color: white;
     border-radius: 10px;
