@@ -1,53 +1,108 @@
+body {
+    background-image: url('trippy.jpg');
+}
+
+.title {
+    background-color: yellow;
+    border: solid black 2px;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 45px;
+}
+
+.directions {
+    background-color: orange;
+    border: solid black 2px;
+    padding: 17px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: bold;
+}
+
 p {
     font-size: 32px;
     text-align: center;
-
+    color: black;
 }
 
 #button1 {
     display: block;
     margin: auto;
     margin-bottom: 20px;
-    font-size: 25px;
+    margin-top: 20px;
+    font-size: 30px;
     padding: 10px;
-    border: none;
+    border: solid white 2px;
     border-radius: 4px;
     cursor: pointer;
     background-color: palevioletred;
+    color: black;
+    
 }
 
 #button2 {
     display: block;
     margin: auto;
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 30px;
     padding: 30px;
-    border: none;
+    border: solid white 2px;
     border-radius: 4px;
     cursor: pointer;
     background-color: aqua;
+    color: black;
 }
 
 #button3 {
     display: block;
     margin: auto;
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 30px;
     padding: 20px; 
-    border: none;
+    border: solid white 2px;
     border-radius: 4px;
     cursor: pointer;
     background-color: yellow;
+    color: black;
 }
 
 #button4 {
     display: block;
     margin: auto;
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 30px;
     padding: 10px; 
-    border: none;
+    border: solid white 2px;
     border-radius: 4px;
     cursor: pointer;
-    background-color: orange;
+    background-color: greenyellow;
+    color: black;
+}
+
+#reset {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 10px; 
+    border: solid white 2px;
+    border-radius: 4px;
+    cursor: pointer; 
+    color: black;
+    background-color: red;
+}
+
+#volume {
+    margin-top: 40px;
+    border: solid white 3px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
 }
