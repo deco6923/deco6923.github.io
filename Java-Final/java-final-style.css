@@ -1,6 +1,7 @@
 body {
     background-image: url('trippy.jpg');
     max-width: 100%;
+    overflow: hidden;
 }
 
 .title {
