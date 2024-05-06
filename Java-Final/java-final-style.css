@@ -1,0 +1,112 @@
+body {
+    background-image: url('trippy.jpg');
+    max-width: 100%;
+
+}
+
+.title {
+    background-color: yellow;
+    border: solid black 2px;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 45px;
+    margin-top: 15px;
+}
+
+.directions {
+    background-color: orange;
+    border: solid black 2px;
+    padding: 17px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+p {
+    font-size: 32px;
+    text-align: center;
+    color: black;
+}
+
+#button1 {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 10px;
+    border: solid white 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: palevioletred;
+    color: black;
+    
+}
+
+#button2 {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 30px;
+    padding: 30px;
+    border: solid white 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: aqua;
+    color: black;
+}
+
+#button3 {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 30px;
+    padding: 20px; 
+    border: solid white 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+}
+
+#button4 {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 30px;
+    padding: 10px; 
+    border: solid white 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: greenyellow;
+    color: black;
+}
+
+#reset {
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px; 
+    border: solid white 2px;
+    border-radius: 4px;
+    cursor: pointer; 
+    color: black;
+    background-color: red;
+    margin-top: -15px;
+}
+
+#volume {
+    margin-top: 30px;
+    border: solid white 3px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+}
